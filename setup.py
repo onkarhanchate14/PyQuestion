@@ -1,23 +1,20 @@
-
 import pathlib
-from setuptools import setup, find_packages
+import setuptools
 
-HERE = pathlib.Path(__file__).parent
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'pyquestions'
+PACKAGE_NAME = 'PyQuestion'
 AUTHOR = 'Onkar Hanchate'
 AUTHOR_EMAIL = 'onkarhanchate14@gmail.com'
-URL = 'https://github.com/onkarhanchate14/pyquestion/'
+URL = 'https://github.com/onkarhanchate14/PyQuestion/'
 
 LICENSE = 'Apache License 2.0'
 DESCRIPTION = 'Return a variety of Python problem/question to solve'
-LONG_DESCRIPTION = (HERE / "README.md").read_text()
+LONG_DESCRIPTION = long_description
 LONG_DESC_TYPE = "text/markdown"
 
-INSTALL_REQUIRES = [
-      'random'
-]
 
 setup(name=PACKAGE_NAME,
       version=VERSION,
@@ -28,6 +25,5 @@ setup(name=PACKAGE_NAME,
       license=LICENSE,
       author_email=AUTHOR_EMAIL,
       url=URL,
-      install_requires=INSTALL_REQUIRES,
-      packages=find_packages()
+      packages=setuptools.find_packages()
       )
