@@ -6,7 +6,7 @@ HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
 PACKAGE_NAME = 'pyquestions'
-AUTHOR1,AUTHOR2,AUTHOR3 = 'Onkar Hanchate','Arihant Abbad','Rahul Patil'
+AUTHOR = 'Onkar Hanchate','Arihant Abbad','Rahul Patil'
 AUTHOR_EMAIL = 'onkarhanchate14@gmail.com'
 URL = 'https://github.com/onkarhanchate14/pyquestion/'
 
