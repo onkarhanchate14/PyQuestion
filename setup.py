@@ -1,5 +1,5 @@
 import pathlib
-import setuptools
+from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -24,5 +24,5 @@ setup(name='PyQuestion',
       license=LICENSE,
       author_email=AUTHOR_EMAIL,
       url=URL,
-      packages=setuptools.find_packages()
+      packages=find_packages()
       )
