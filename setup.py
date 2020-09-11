@@ -5,7 +5,6 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'PyQuestion'
 AUTHOR = 'Onkar Hanchate'
 AUTHOR_EMAIL = 'onkarhanchate14@gmail.com'
 URL = 'https://github.com/onkarhanchate14/PyQuestion'
@@ -16,7 +15,7 @@ LONG_DESCRIPTION = long_description
 LONG_DESC_TYPE = "text/markdown"
 
 
-setup(name=PACKAGE_NAME,
+setup(name='PyQuestion',
       version=VERSION,
       description=DESCRIPTION,
       long_description=LONG_DESCRIPTION,
