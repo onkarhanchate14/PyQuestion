@@ -5,19 +5,18 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'your_package'
-AUTHOR = 'You'
-AUTHOR_EMAIL = 'you@email.com'
-URL = 'https://github.com/you/your_package'
+PACKAGE_NAME = 'pyquestions'
+AUTHOR1,AUTHOR2,AUTHOR3 = 'Onkar Hanchate','Arihant Abbad','Rahul Patil'
+AUTHOR_EMAIL = 'onkarhanchate14@gmail.com'
+URL = 'https://github.com/onkarhanchate14/pyquestion/'
 
 LICENSE = 'Apache License 2.0'
-DESCRIPTION = 'Describe your package in one sentence'
+DESCRIPTION = 'Return a variety of Python problem/question to solve'
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
-      'numpy',
-      'pandas'
+      'random'
 ]
 
 setup(name=PACKAGE_NAME,
