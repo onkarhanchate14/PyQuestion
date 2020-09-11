@@ -1,5 +1,4 @@
-import random
-
+import random #importing random module 
 
 lst=["""Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
 between 2000 and 3200 (both included).
@@ -887,9 +886,8 @@ A single line of input containing a string of Roman characters.""","""$ When use
   The third and the last line of input contains the integer K, denoting the number of indices to be selected.
 """]
 def getQuestion():
-
-    x=random.randint(0,len(lst))
+    #return a problem statement from list
+    x=random.randint(0,len(lst)) #using random module to get random number 
     if(lst[x][0]=='"'):
         return lst[x][1:]
-    return lst[x]
-print(getQuestion())
+    return lst[x] # returns a random index problem from list 
