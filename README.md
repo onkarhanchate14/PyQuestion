@@ -1,6 +1,6 @@
-<div align="center">
+
 # pyquestion
- </div>
+ 
  It's a very simple and easy to use module which calls a function named getQuestion and returns a python problem with hint to solve it.
 ### Example: 
  import pyquestion<br/>
