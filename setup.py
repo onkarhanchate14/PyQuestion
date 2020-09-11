@@ -8,7 +8,7 @@ VERSION = '0.1.0'
 PACKAGE_NAME = 'PyQuestion'
 AUTHOR = 'Onkar Hanchate'
 AUTHOR_EMAIL = 'onkarhanchate14@gmail.com'
-URL = 'https://github.com/onkarhanchate14/PyQuestion/'
+URL = 'https://github.com/onkarhanchate14/PyQuestion'
 
 LICENSE = 'Apache License 2.0'
 DESCRIPTION = 'Return a variety of Python problem/question to solve'
